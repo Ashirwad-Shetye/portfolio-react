@@ -1,4 +1,5 @@
 import React from "react";
+import flower1 from "../assets/images/misc/flower1.png";
 import { motion, useScroll, useTransform } from "framer-motion";
 
 function Home() {
@@ -68,7 +69,7 @@ function Home() {
             style={{ y }}
             className="absolute right-0 md:right-10 lg:left-0 lg:w-auto lg:max-w-[600px] opacity-10 w-80 md:96 rotate-12"
           >
-            <img src={"/flower1.png"} alt={"flower"} width={400} height={400} />
+            <img src={flower1} alt={"flower"} width={400} height={400} />
           </motion.div>
           <motion.div
             variants={variants}
