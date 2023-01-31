@@ -235,7 +235,7 @@ function Works() {
                       Portfolio to showcase my skills and projects.
                     </h1>
                     <h1 className="text-center mx-5 text-gray-500">
-                      NextJs, Tailwindcss, Vercel, flowbite, framer-motion
+                      ReactJs, Tailwindcss, flowbite, framer-motion
                     </h1>
                   </div>
                   <div className="w-full absolute bottom-2 flex justify-between text-sm">
@@ -249,7 +249,9 @@ function Works() {
                       <CgWebsite className="mr-2 text-xl font-normal" /> Website
                     </a>
                     <a
-                      href={"https://github.com/Ashirwad-Shetye/portfolio"}
+                      href={
+                        "https://github.com/Ashirwad-Shetye/portfolio-react"
+                      }
                       target="_blank"
                       rel="noopener noreferrer"
                       className="h-8 mr-2 flex items-center text-darkcoffee 
