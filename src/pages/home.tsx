@@ -1,5 +1,9 @@
 import React from "react";
 import flower1 from "../assets/images/misc/flower1.png";
+import mongodb from "../assets/images/skills/mongodb.png";
+import express from "../assets/images/skills/express.png";
+import reactLogo from "../assets/images/skills/react.png";
+import nodeLogo from "../assets/images/skills/node.png";
 import { motion, useScroll, useTransform } from "framer-motion";
 
 function Home() {
@@ -102,16 +106,16 @@ function Home() {
               className="my-10 flex space-x-5 items-center"
             >
               <motion.div variants={stack} className="w-28">
-                <img src={"/mongodb.png"} alt={"js"} width={400} height={400} />
+                <img src={mongodb} alt={"mongodb"} width={400} height={400} />
               </motion.div>
               <motion.div variants={stack} className="w-24">
-                <img src={"/express.png"} alt={"js"} width={400} height={400} />
+                <img src={express} alt={"js"} width={400} height={400} />
               </motion.div>
               <motion.div variants={stack} className="w-20">
-                <img src={"/react.png"} alt={"js"} width={400} height={400} />
+                <img src={reactLogo} alt={"js"} width={400} height={400} />
               </motion.div>
               <motion.div variants={stack} className="w-20 mb-1">
-                <img src={"/node.png"} alt={"js"} width={400} height={400} />
+                <img src={nodeLogo} alt={"js"} width={400} height={400} />
               </motion.div>
             </motion.div>
           </motion.div>
