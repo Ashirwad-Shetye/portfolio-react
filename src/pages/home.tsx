@@ -57,7 +57,7 @@ function Home() {
   };
 
   return (
-    <div className=" w-screen min-h-[720px] h-fit lg:h-screen">
+    <div className="min-h-[720px] h-fit lg:h-screen">
       <div className="flex flex-col md:flex-row justify-center md:justify-start items-center">
         <section className=" relative w-full h-28 md:h-full md:w-[200px]">
           <div className="h-screen"></div>

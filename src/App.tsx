@@ -1,7 +1,7 @@
 import React from "react";
 import About from "./pages/about";
 import Works from "./pages/works";
-// import Footer from "./footer";
+import Footer from "./pages/footer";
 import { IoChevronUpSharp } from "react-icons/io5";
 import Home from "./pages/home";
 import Skill from "./pages/skills";
@@ -38,10 +38,10 @@ export default function App() {
     }
   };
   return (
-    <div className="bg-white h-fit">
-      <section className=" fixed flex items-center z-50 lg:justify-center lg:left-0 lg:h-full w-full h-24 md:h-full md:w-[200px]">
+    <div className="bg-white overflow-x-hidden h-fit">
+      <section className="fixed flex items-center z-50 lg:justify-center lg:left-0 lg:h-full w-full h-24 md:h-full md:w-[200px]">
         <div className="relative bg-white md:bg-transparent w-full flex h-24 flex-col md:h-screen ">
-          <div className="bord absolute right-5 md:right-0 md:top-10 md:relative flex items-center md:block h-24 z-10 md:h-80 ">
+          <div className="absolute right-5 md:right-0 md:top-10 md:relative flex items-center md:block h-24 z-10 md:h-80 ">
             <ul className="text-center text-midcoffee md:mt-64 space-x-5 font-raleway flex md:-rotate-90 h-fit">
               <li
                 onClick={scrollContact}
@@ -76,7 +76,7 @@ export default function App() {
           </div>
         </div>
       </section>
-      <section className="w-screen">
+      <section className="">
         <div id="intro">
           <Home />
         </div>
@@ -90,7 +90,7 @@ export default function App() {
           <Works />
         </div>
         <div id="footer" className="relative">
-          {/* <Footer /> */}
+          <Footer />
           <button
             onClick={scrollTop}
             className="bg-darkcoffee bg-opacity-50 h-12 w-12 rounded-full flex justify-center items-center 

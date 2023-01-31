@@ -46,7 +46,7 @@ function About() {
   }, [control, textInView, imageInView]);
 
   return (
-    <div className="w-screen h-fit lg:h-screen">
+    <div className="h-fit lg:h-screen">
       <div className="flex flex-col md:flex-row justify-center md:justify-start items-center">
         <section className="relative w-full h-32 md:h-full md:w-[200px]">
           <div className="h-screen w-24"></div>
