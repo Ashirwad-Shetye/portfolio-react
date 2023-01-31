@@ -196,7 +196,7 @@ function Works() {
                       Weather app with location detection and daily forecast.
                     </h1>
                     <h1 className="text-center mx-5 text-gray-500">
-                      NextJs, Tailwindcss, FetchApi, WeatherApi
+                      ReactJs, Tailwindcss, FetchApi, WeatherApi
                     </h1>
                   </div>
                   <div className="w-full absolute bottom-2 flex justify-between text-sm">
