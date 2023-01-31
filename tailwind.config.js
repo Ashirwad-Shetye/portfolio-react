@@ -18,6 +18,9 @@ module.exports = {
       backgroundImage: {
         goalie: "url('/goalie.png')",
       },
+      animation: {
+        "spin-slow": "spin 2s linear infinite",
+      },
     },
   },
   plugins: [require("tailwind-scrollbar")],
