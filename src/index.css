@@ -1,3 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.cdnfonts.com/css/ginebra?styles=26195');
+@import url('https://fonts.cdnfonts.com/css/raleway-5?styles=27272');
+@import url('https://fonts.cdnfonts.com/css/raleway-5?styles=27270');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +18,56 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@layer{
+  .project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+    flex-shrink: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .project:hover{
+    scale: 1.1;
+    transition: 300ms;
+  }
+
+  /* .one{
+    background-image: url("/images/projects/01.png");
+    background-position: center;
+    background-size: cover;
+  }
+  .two{
+    background-image: url("/images/projects/02.png");
+    background-position: left;
+    background-size: cover;
+  }
+  .three{
+    background-image: url("/images/projects/03.png");
+    background-position: center;
+    background-size: cover;
+  }
+  .four{
+    background-image: url("/images/projects/04.png");
+    background-position: center;
+    background-size: cover;
+  }
+  .five{
+    background-image: url("/images/projects/05.png");
+    background-position: center;
+    background-size: cover;
+  }
+  .six{
+    background-image: url("/images/projects/06.png");
+    background-position: top;
+    background-size: cover;
+  } */
 }
