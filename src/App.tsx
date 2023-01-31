@@ -1,5 +1,5 @@
 import React from "react";
-// import About from "./about";
+import About from "./pages/about";
 // import Works from "./works";
 // import Footer from "./footer";
 import { IoChevronUpSharp } from "react-icons/io5";
@@ -81,7 +81,9 @@ export default function App() {
         <div id="intro">
           <Home />
         </div>
-        <div id="about">{/* <About /> */}</div>
+        <div id="about">
+          <About />
+        </div>
         <div id="skills">{/* <Skill /> */}</div>
         <div id="works">{/* <Works /> */}</div>
         <div id="footer" className="relative">

@@ -8,7 +8,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 function Home() {
   let { scrollYProgress } = useScroll();
-  let y = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
+  let y = useTransform(scrollYProgress, [0, 1], ["0%", "30%"]);
 
   const variants = {
     hidden: { opacity: 0 },
