@@ -75,7 +75,7 @@ function Works() {
         <section className="w-full h-32 md:h-full md:w-[200px]">
           <div className="h-screen"></div>
         </section>
-        <section className="w-8/12 lg:w-10/12 flex justify-center md:justify-left items-center">
+        <section className="mx-5 md:mx-0 w-11/12 md:w-8/12 lg:w-10/12 flex justify-center md:justify-left items-center">
           <div className="space-y-16 w-full">
             <motion.div
               ref={textRef}
@@ -88,7 +88,7 @@ function Works() {
                 variants={text}
                 initial="hidden"
                 animate="show"
-                className="text-7xl text-darkcoffee font-ginebra"
+                className="mx-5 md:mx-0 text-7xl text-darkcoffee font-ginebra"
               >
                 Projects / Work
               </motion.h1>

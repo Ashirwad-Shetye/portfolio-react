@@ -54,7 +54,7 @@ function Footer() {
         <section className="relative w-full h-32 md:h-full md:w-[200px]">
           <div className="h-screen"></div>
         </section>
-        <section className="flex flex-col justify-center items-start z-10">
+        <section className="mx-5 md:mx-0 flex flex-col justify-center items-start z-10">
           <motion.div
             ref={ref}
             variants={variants}
@@ -169,7 +169,7 @@ function Footer() {
             animate={control}
             initial="hidden"
             className="absolute w-80 right-5 top-40 md:w-96 lg:max-w-[500px] md:top-40 
-              md:right-32 lg:right-40 opacity-20 border-2 -z-10"
+              md:right-32 lg:right-40 opacity-20 -z-10"
           >
             <img src={flower} alt={"flower"} width={300} height={500} />
           </motion.div>

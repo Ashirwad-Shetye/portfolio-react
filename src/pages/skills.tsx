@@ -42,7 +42,7 @@ function Skill() {
         <section className="relative w-full h-32 md:h-full md:w-[200px]">
           <div className="h-screen"></div>
         </section>
-        <section className="flex flex-col justify-center items-start">
+        <section className="mx-5 md:mx-0 flex flex-col justify-center items-start">
           <motion.div
             ref={ref}
             variants={variants}
