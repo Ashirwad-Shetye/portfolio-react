@@ -61,28 +61,28 @@ export default function App() {
                   className="w-14 hover:animate-spin-slow"
                 />
               </div>
-              <ul className="md:absolute w-5/6 max-w-[20rem] md:max-w-[26rem] md:h-[200px] h-full md:w-screen text-center md:-rotate-90 text-midcoffee justify-between font-raleway flex">
+              <ul className="md:absolute w-5/6 max-w-[20rem] md:max-w-[26rem] md:h-[200px] h-full md:w-screen text-center md:-rotate-90 text-midcoffee justify-between items-center font-raleway flex">
                 <li
                   onClick={scrollContact}
-                  className="cursor-pointer flex items-center px-1 hover:italic duration-300"
+                  className="cursor-pointer h-fit flex items-center px-1 hover:italic duration-300"
                 >
                   CONTACT
                 </li>
                 <li
                   onClick={scrollWork}
-                  className="cursor-pointer flex items-center px-1 hover:italic duration-300"
+                  className="cursor-pointer h-fit flex items-center px-1 hover:italic duration-300"
                 >
                   PROJECTS
                 </li>
                 <li
                   onClick={scrollSkills}
-                  className="cursor-pointer flex items-center px-1 hover:italic duration-300"
+                  className="cursor-pointer h-fit flex items-center px-1 hover:italic duration-300"
                 >
                   SKILLS
                 </li>
                 <li
                   onClick={scrollAbout}
-                  className="cursor-pointer flex items-center px-1 hover:italic duration-300"
+                  className="cursor-pointer h-fit flex items-center px-1 hover:italic duration-300"
                 >
                   ABOUT
                 </li>

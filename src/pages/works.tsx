@@ -72,10 +72,10 @@ function Works() {
   return (
     <div className=" w-screen min-h-[720px] h-fit lg:h-screen">
       <div className="flex flex-col md:flex-row items-center">
-        <section className=" relative w-full h-32 md:h-full md:w-[200px]">
+        <section className="w-full h-32 md:h-full md:w-[200px]">
           <div className="h-screen"></div>
         </section>
-        <section className=" w-10/12 flex justify-center md:justify-left items-center">
+        <section className="w-8/12 lg:w-10/12 flex justify-center md:justify-left items-center">
           <div className="space-y-16 w-full">
             <motion.div
               ref={textRef}

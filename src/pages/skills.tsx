@@ -39,10 +39,10 @@ function Skill() {
   return (
     <div className="min-h-[750px] h-fit lg:h-screen">
       <div className="flex flex-col md:flex-row justify-center md:justify-start items-center">
-        <section className="relative w-full h-32 md:h-full md:w-2/12 md:max-w-[200px]">
+        <section className="relative w-full h-32 md:h-full md:w-[200px]">
           <div className="h-screen"></div>
         </section>
-        <section className="w-10/12 flex flex-col justify-center items-start">
+        <section className="flex flex-col justify-center items-start">
           <motion.div
             ref={ref}
             variants={variants}

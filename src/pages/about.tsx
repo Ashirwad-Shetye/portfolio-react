@@ -49,12 +49,12 @@ function About() {
     <div className="h-fit lg:h-screen">
       <div className="flex flex-col md:flex-row justify-center md:justify-start items-center">
         <section className="relative w-full h-32 md:h-full md:w-[200px]">
-          <div className="h-screen w-24"></div>
+          <div className="h-screen"></div>
         </section>
-        <section className=" w-10/12 flex justify-center md:justify-left items-center">
+        <section className=" w-8/12 lg:w-10/12 flex justify-center md:justify-left items-center">
           <motion.div
             ref={textRef}
-            className="grid sm:grid-rows gap-5 md:grid-cols-2 place-items-center md:place-items-left"
+            className="grid sm:grid-rows gap-5 lg:grid-cols-2 place-items-center md:place-items-left"
           >
             <motion.div
               variants={text}
