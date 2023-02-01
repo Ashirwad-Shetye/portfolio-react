@@ -70,11 +70,11 @@ function About() {
                 </h2>
                 <div className="space-y-5">
                   <p className="text-md text-darkcoffee font-raleway tracking-wide">
-                    As an individual fascinated & drawn towards art & creativity
-                    since childhood, I’ve always been involved in different
-                    forms of artistic fields like painting sketches & producing
-                    music. Learning web development has helped me expand this
-                    ability to a different medium.
+                    As someone who has been fascinated by & drawn to art &
+                    creativity since childhood, I've always been involved in
+                    various forms of artistic fields such as painting sketches &
+                    producing music. Learning web development has helped me
+                    expand this ability to a different medium.
                   </p>
                   <p className="text-md text-darkcoffee font-raleway tracking-wide">
                     This love towards art & technology has always pushed me to
@@ -84,7 +84,7 @@ function About() {
                 </div>
                 <div className="space-y-5">
                   <p className="text-md text-darkcoffee font-raleway tracking-wide">
-                    One of my favourite quote is :
+                    One of my favourite quotes is :
                   </p>
                   <h1 className="font-raleway font-semibold text-midcoffee text-xl">
                     “Technology is best when it brings people together.”

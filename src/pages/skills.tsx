@@ -65,7 +65,7 @@ function Skill() {
               initial="hidden"
               className="mb-10 font-raleway text-darkcoffee"
             >
-              I have been working with following tech:
+              I have been working with the following technology:
             </motion.p>
             <div className="flex">
               <motion.ul
