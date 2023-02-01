@@ -66,7 +66,7 @@ function Home() {
           variants={variants}
           initial="hidden"
           animate="show"
-          className="relative w-10/12 flex justify-center items-center"
+          className="relative w-10/12 flex  items-center"
         >
           <motion.div
             variants={image}
@@ -79,7 +79,7 @@ function Home() {
             variants={variants}
             initial="hidden"
             animate="show"
-            className="text-left mt-24 md:w-4/6"
+            className="text-left mt-20 w-full md:w-5/6 lg:3/6 "
           >
             <motion.div
               variants={text}
