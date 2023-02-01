@@ -92,7 +92,7 @@ function Home() {
               variants={text}
               className="text-3xl text-midcoffee my-6 font-raleway tracking-widest"
             >
-              Fullstack Web Developer
+              Full Stack Web Developer
             </motion.h2>
             <motion.p
               variants={text}
