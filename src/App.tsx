@@ -55,7 +55,11 @@ export default function App() {
           <section className="fixed flex items-center z-50 lg:justify-center lg:left-0 lg:h-full w-full h-24 md:h-full md:w-[200px]">
             <div className="relative bg-white md:bg-transparent w-full md:w-[200px] flex items-center justify-between md:justify-center h-24 md:h-screen ">
               <div className="w-1/6 md:absolute md:mx-auto md:top-0 md:w-full md:h-24 md:max-w-full max-w-[6rem] flex items-center justify-center">
-                <img src={logo} alt="logo" className="w-14" />
+                <img
+                  src={logo}
+                  alt="logo"
+                  className="w-14 hover:animate-spin-slow"
+                />
               </div>
               <ul className="md:absolute w-5/6 max-w-[20rem] md:max-w-[26rem] md:h-[200px] h-full md:w-screen text-center md:-rotate-90 text-midcoffee justify-between font-raleway flex">
                 <li
