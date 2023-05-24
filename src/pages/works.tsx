@@ -15,7 +15,7 @@ function Works() {
       opacity: 1,
       transition: {
         staggerChildren: 0.3,
-        duration: 3,
+        duration: 1,
       },
     },
   };
@@ -29,7 +29,7 @@ function Works() {
       opacity: 1,
       x: 0,
       transition: {
-        duration: 2,
+        duration: 1,
       },
     },
   };
@@ -55,7 +55,7 @@ function Works() {
       opacity: 1,
       x: 0,
       transition: {
-        duration: 2,
+        duration: 1,
       },
     },
   };
@@ -101,6 +101,7 @@ function Works() {
               className="flex mb-20 md:mb-0 w-full overflow-x-scroll scrollbar-thumb-midcoffee scrollbar-track-coffee
                scrollbar-thin scrollbar-thumb-rounded scrollbar-track-rounded"
             >
+              {/* Goalie */}
               <motion.div
                 variants={project}
                 initial="hidden"
@@ -143,6 +144,7 @@ function Works() {
                   </div>
                 </div>
               </motion.div>
+              {/* E-commerce */}
               <motion.div
                 variants={project}
                 initial="hidden"
@@ -183,6 +185,51 @@ function Works() {
                   </div>
                 </div>
               </motion.div>
+              {/* FileStore */}
+              <motion.div
+                variants={project}
+                initial="hidden"
+                animate="show"
+                className="project m-10 md:w-[350px] md:h-[400px] hover:shadow-lg hover:bg-coffee flex flex-col"
+              >
+                <div className="seven w-full h-4/6"></div>
+                <div className="w-full h-2/6 font-raleway text-darkcoffee">
+                  <div className="w-full text-sm pt-2">
+                    <h1 className="text-center mx-5 pb-1">
+                      File Storage web application with upload and download
+                      functionality
+                    </h1>
+                    <h1 className="text-center mx-5 text-gray-500">
+                      ReactJs, AWS S3-bucket, Tailwindcss, NodeJs, ExpressJs,
+                      Socket.io
+                    </h1>
+                  </div>
+                  <div className="w-full absolute bottom-2 flex justify-between text-sm">
+                    <a
+                      href={"https://filestore.ashirwadshetye.com/"}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="h-8 ml-2 flex items-center text-darkcoffee 
+                    font-raleway px-2 hover:font-bold duration-200 hover:scale-110 "
+                    >
+                      <CgWebsite className="mr-2 text-xl font-normal" /> Website
+                    </a>
+                    <a
+                      href={
+                        "https://github.com/Ashirwad-Shetye/filestore-frontend"
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="h-8 mr-2 flex items-center text-darkcoffee 
+                    font-raleway px-2 hover:font-bold duration-200 hover:scale-110 "
+                    >
+                      <AiFillGithub className="mr-2 text-xl font-normal" />
+                      GitHub
+                    </a>
+                  </div>
+                </div>
+              </motion.div>
+              {/* Weather App */}
               <motion.div
                 variants={project}
                 initial="hidden"
@@ -222,6 +269,7 @@ function Works() {
                   </div>
                 </div>
               </motion.div>
+              {/* portfolio */}
               <motion.div
                 variants={project}
                 initial="hidden"
@@ -263,6 +311,7 @@ function Works() {
                   </div>
                 </div>
               </motion.div>
+              {/* Rock, paper, scissor */}
               <motion.div
                 variants={project}
                 initial="hidden"
@@ -307,6 +356,7 @@ function Works() {
                   </div>
                 </div>
               </motion.div>
+              {/* Frostbyte */}
               <motion.div
                 variants={project}
                 initial="hidden"
