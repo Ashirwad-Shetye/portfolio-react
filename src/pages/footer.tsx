@@ -23,7 +23,7 @@ function Footer() {
     show: {
       opacity: 0.2,
       transition: {
-        duration: 3,
+        duration: 1,
       },
     },
   };
@@ -37,7 +37,7 @@ function Footer() {
       opacity: 1,
       x: 0,
       transition: {
-        duration: 1.5,
+        duration: 1,
       },
     },
   };
