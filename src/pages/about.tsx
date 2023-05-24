@@ -17,7 +17,7 @@ function About() {
       opacity: 1,
       x: 0,
       transition: {
-        duration: 1.5,
+        duration: 1,
       },
     },
   };
@@ -31,7 +31,7 @@ function About() {
       x: 0,
       opacity: 1,
       transition: {
-        duration: 1.5,
+        duration: 1,
       },
     },
   };
