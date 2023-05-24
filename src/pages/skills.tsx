@@ -25,7 +25,7 @@ function Skill() {
       opacity: 1,
       x: 0,
       transition: {
-        duration: 1.5,
+        duration: 1,
       },
     },
   };
@@ -74,13 +74,15 @@ function Skill() {
                 initial="hidden"
                 className="space-y-5 text-lg font-raleway text-darkcoffee"
               >
-                <li>TypeScript</li>
-                <li>Node.js</li>
-                <li>TailwindCss</li>
-                <li>ReactJs along with NextJs framework</li>
-                <li>MongoDb & SQL</li>
-                <li>Redux and Redux toolkit</li>
-                <li>Test: Jest, React Testing Library</li>
+                <li>TypeScript, JavaScript</li>
+                <li>TailwindCss, SCSS, Framer-Motion</li>
+                <li>Figma, Adobe XD</li>
+                <li>React JS, Next JS, React Native</li>
+                <li>Redux, Redux toolkit, Zustand</li>
+                <li>Node JS, Express JS</li>
+                <li>MongoDb, SQL, Firebase, PrismaDB</li>
+                <li>Jest, React Testing Library</li>
+                <li>AWS, Azure</li>
               </motion.ul>
             </div>
           </motion.div>
