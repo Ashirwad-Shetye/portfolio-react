@@ -25,7 +25,7 @@ function Home() {
     show: {
       opacity: 0.2,
       transition: {
-        duration: 2,
+        duration: 1.5,
       },
     },
   };
@@ -39,7 +39,7 @@ function Home() {
       opacity: 1,
       y: 0,
       transition: {
-        duration: 1,
+        duration: 1.5,
       },
     },
   };
@@ -51,7 +51,7 @@ function Home() {
     show: {
       opacity: 1,
       transition: {
-        duration: 1,
+        duration: 1.5,
       },
     },
   };
