@@ -201,7 +201,7 @@ function Works() {
                     </h1>
                     <h1 className="text-center mx-5 text-gray-500">
                       ReactJs, AWS S3-bucket, Tailwindcss, NodeJs, ExpressJs,
-                      Socket.io
+                      Socket.io, Google Auth
                     </h1>
                   </div>
                   <div className="w-full absolute bottom-2 flex justify-between text-sm">
