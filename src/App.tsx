@@ -44,6 +44,11 @@ export default function App() {
       element.scrollIntoView({ behavior: "smooth" });
     }
   };
+  const handleDownload = () => {
+    const downloadUrl =
+      "https://drive.google.com/file/d/1B1HCHepyrfcTn6TJm1YL8Aji7buXjl17/view?usp=share_link";
+    window.open(downloadUrl, "_blank");
+  };
   return (
     <>
       {loading ? (
@@ -110,9 +115,16 @@ export default function App() {
             <div id="footer" className="relative">
               <Footer />
               <button
+                onClick={handleDownload}
+                className="bg-darkcoffee text-white bg-opacity-50 h-12 px-3 rounded-full flex justify-center items-center 
+              fixed bottom-8 right-8 md:top-8 md:right-20 z-50 hover:scale-110 duration-200"
+              >
+                Download CV
+              </button>
+              <button
                 onClick={scrollTop}
                 className="bg-darkcoffee bg-opacity-50 h-12 w-12 rounded-full flex justify-center items-center 
-              absolute bottom-10 right-20 z-50 hover:scale-110 duration-200 animate-bounce"
+              absolute bottom-8 md:bottom-10 left-8 md:right-20 z-50 hover:scale-110 duration-200 animate-bounce"
               >
                 <IoChevronUpSharp />
               </button>
