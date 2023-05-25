@@ -117,14 +117,14 @@ export default function App() {
               <button
                 onClick={handleDownload}
                 className="bg-darkcoffee text-white bg-opacity-80 md:bg-opacity-50 h-12 px-3 rounded-full flex justify-center items-center 
-              fixed bottom-8 right-8 md:top-8 md:right-20 z-50 hover:scale-110 duration-200"
+              fixed bottom-8 right-8 md:bottom-0 md:top-8 md:right-20 z-50 hover:scale-110 duration-200"
               >
                 Download CV
               </button>
               <button
                 onClick={scrollTop}
                 className="bg-darkcoffee bg-opacity-50 h-12 w-12 rounded-full flex justify-center items-center 
-              absolute bottom-8 md:bottom-10 left-8 md:right-20 z-50 hover:scale-110 duration-200 animate-bounce"
+              absolute bottom-8 left-8 md:left-auto md:bottom-10 md:right-20 z-50 hover:scale-110 duration-200 animate-bounce"
               >
                 <IoChevronUpSharp />
               </button>
