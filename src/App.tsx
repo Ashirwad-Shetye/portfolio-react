@@ -116,7 +116,7 @@ export default function App() {
               <Footer />
               <button
                 onClick={handleDownload}
-                className="bg-darkcoffee text-white bg-opacity-50 h-12 px-3 rounded-full flex justify-center items-center 
+                className="bg-darkcoffee text-white bg-opacity-80 md:bg-opacity-50 h-12 px-3 rounded-full flex justify-center items-center 
               fixed bottom-8 right-8 md:top-8 md:right-20 z-50 hover:scale-110 duration-200"
               >
                 Download CV
